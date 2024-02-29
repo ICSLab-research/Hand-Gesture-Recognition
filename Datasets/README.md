@@ -9,6 +9,6 @@ Link Datasets: [Google Drive](https://drive.google.com/drive/folders/1IyUM7Pd4lg
 ```
 
 * The dataset contains 10 human hand gesture types from more than 10 volunteers.
-* The FMCW Radar used in this project is a mmWave Radar sensor [AWR1243BOOST](https://www.ti.com/tool/AWR1243BOOST) and [DCA1000EVM](https://www.ti.com/tool/DCA1000EVM), both manufactured by Texas Instruments (TI). 
+* The FMCW Radar used for data acquisition in this project is a mmWave Radar sensor [AWR1243BOOST](https://www.ti.com/tool/AWR1243BOOST) and [DCA1000EVM](https://www.ti.com/tool/DCA1000EVM), both manufactured by Texas Instruments (TI). 
 
 
