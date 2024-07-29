@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>778</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>871</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab2">
+     <attribute name="title">
+      <string>Realtime</string>
+     </attribute>
+     <widget class="QGraphicsView" name="graphicsView">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>80</y>
+        <width>600</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>10</y>
+        <width>401</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+        <pointsize>21</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>GESTURE </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>PREDICT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>START</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_Recording_dataset">
+   <property name="text">
+    <string>&amp;Recording dataset</string>
+   </property>
+  </action>
+  <action name="action_Training_model">
+   <property name="text">
+    <string>&amp;Training models</string>
+   </property>
+  </action>
+  <action name="action_Prediction_Real_time">
+   <property name="text">
+    <string>&amp;Predict Real-time</string>
+   </property>
+  </action>
+  <action name="actionPlay_button">
+   <property name="icon">
+    <iconset>
+     <normaloff>E:/.designer/OpenRadar-master/PyQt_interface_Novelda-main/icon/play_button.png</normaloff>E:/.designer/OpenRadar-master/PyQt_interface_Novelda-main/icon/play_button.png</iconset>
+   </property>
+   <property name="text">
+    <string>Play_button</string>
+   </property>
+  </action>
+  <action name="actionStop_button">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>E:/.designer/OpenRadar-master/PyQt_interface_Novelda-main/icon/stop_button.png</normaloff>E:/.designer/OpenRadar-master/PyQt_interface_Novelda-main/icon/stop_button.png</iconset>
+   </property>
+   <property name="text">
+    <string>Stop_button</string>
+   </property>
+  </action>
+  <action name="actionSave_button">
+   <property name="icon">
+    <iconset>
+     <normaloff>E:/.designer/OpenRadar-master/PyQt_interface_Novelda-main/icon/save_button.png</normaloff>E:/.designer/OpenRadar-master/PyQt_interface_Novelda-main/icon/save_button.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save_button</string>
+   </property>
+  </action>
+  <action name="actionReset_button">
+   <property name="icon">
+    <iconset>
+     <normaloff>E:/.designer/OpenRadar-master/PyQt_interface_Novelda-main/icon/reset_button.png</normaloff>E:/.designer/OpenRadar-master/PyQt_interface_Novelda-main/icon/reset_button.png</iconset>
+   </property>
+   <property name="text">
+    <string>Reset_button</string>
+   </property>
+  </action>
+  <action name="actionMake_current_value_default">
+   <property name="text">
+    <string>&amp;Set current values default </string>
+   </property>
+  </action>
+  <action name="action_Set_current_values_default">
+   <property name="text">
+    <string>&amp;Set current values default </string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
